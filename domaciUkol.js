@@ -2,7 +2,7 @@
 
 // Zobrazení promptu pro zadání teploty ve stupních Fahrenheita
 let fahrenheit = prompt("Zadejte teplotu ve stupních Fahrenheita:");
-fahrenheit = parseFloat(fahrenheit); //převod na číslo
+fahrenheit = Number(fahrenheit); //převod na číslo
 
 //převede číslo 
 let celsius = (fahrenheit - 32) * 5 / 9;
