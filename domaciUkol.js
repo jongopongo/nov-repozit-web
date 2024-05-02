@@ -1,7 +1,7 @@
 //domácí úkol převod teploty Fahrenheit na Celsius
 
 // Zobrazení promptu pro zadání teploty ve stupních Fahrenheita
-let fahrenheit = prompt("Zadejte teplotu ve stupních Fahrenheita:");
+let fahrenheit = Number(prompt("Zadejte teplotu ve stupních Fahrenheita:"));
 fahrenheit = parseFloat(fahrenheit); //převod na číslo
 
 //převede číslo 
